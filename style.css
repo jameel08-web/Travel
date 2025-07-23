@@ -1,0 +1,10 @@
+.Destinations{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    gap: 10px;
+    padding: clamp(30px, 6vw, 100px) clamp(15px, 4vw, 60px);
+}
+
+.Destinations img{
+    width: 100%;
+}
