@@ -1,10 +1,50 @@
-.Destinations{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
-    gap: 10px;
-    padding: clamp(30px, 6vw, 100px) clamp(15px, 4vw, 60px);
+:root {
+    --main-color: #4caf4f;
+    --second-color: white;
+    --third-color: #f5f7fa;
 }
 
-.Destinations img{
-    width: 100%;
+.mybtn{
+  padding: 5px 30px !important;
+  background-color: var(--main-color);
+  color: var(--second-color);
+  border-radius: 8px;
+  width: fit-content;
 }
+.login{
+  background: none !important;
+  color: var(--main-color);
+}
+.herpresec{
+  color: var(--main-color) !important;
+}
+section{
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.herosection{
+  background-color: var(--third-color);
+}
+.myimg{
+  width: 326px;
+  height: 326px;
+}
+.footer{
+  background-color: black !important;
+  color: var(--second-color);
+}
+.ins{
+  width: fit-content;
+}
+ul{
+
+  padding-left: 0px !important; 
+}
+ul li {
+  list-style: none;
+  text-align: start !important;
+}
+.logo{
+  margin-right: 55px !important;
+}
+
